@@ -16,15 +16,15 @@ if (age >= 18) {
 }
 
 homePet = prompt("Do you have any home pet?");
-
+homePet= homePet.toLowerCase();
 switch (homePet) {
-  case "Cat":
+  case "cat":
     alert("Meow");
     break;
-  case "Dog":
+  case "dog":
     alert("Hown");
     break;
-  case "Bee":
+  case "bee":
     calert("Buzz");
     break; 
   default:
