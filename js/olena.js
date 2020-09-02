@@ -15,3 +15,30 @@ if (yourAge >=18) {
 } else {
   alert("You can't vote");
 }
+
+var animal = prompt("Do you have a pet?");
+
+/*if (animal === "cat") {
+  alert("Meow");
+} else if (animal === "dog") {
+  alert("Bark");
+} else if (animal ==="cow") {
+  alert("Moo");
+} else {
+  alert("I don't Know this animal");
+}*/
+
+switch(animal) {
+  case "cat":
+    alert("Meow");
+    break;
+  case "dog":
+    alert("Bark");
+    break;
+  case "cow":
+    alert("Moo");
+    break;
+  default:
+    alert("I don't Know this animal");
+    break;
+}
